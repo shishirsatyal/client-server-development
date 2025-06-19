@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #ACC410;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header{
+    text-align: center;
+    background-color: blue;
+    padding: 20px;
+    color: white;
+}
+
+h1{
+    margin: 0px;
+}
+
+.infographics
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+    margin: 20px;
+    gap: 20px;
+    
+}
+
+.fact
+{
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.fact h2{
+    color:#0000E7;
+}
+
+footer{
+
+    background-color: aliceblue;
+    text-align: center;
+    color: black;
+    padding: 20px;
+}
+
